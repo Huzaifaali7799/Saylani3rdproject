@@ -1,0 +1,493 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+}
+
+
+/*=============== FIRST HEADER LINE ========*/
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    font-family: sans-serif;
+    display: flex;
+}
+.h-one{
+    width: 25%;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+.h-one img{
+    width: 200px;
+    height: 100%;
+    float: right;
+}
+.h-two{
+    width: 50%;
+    height: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h-three{
+    width: 25%;
+    height: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h-three button{
+    border: 1px solid green;
+    color: green;
+    padding: 5px 10px 5px 10px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+/*============= NAVIGATION BAR =============*/
+.nav{
+    width: 40%;
+    height: 80px;
+    background-color: ghostwhite;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav img{
+    height: 70px;
+    width: 300px;
+}
+.menu{
+    width: 60%;
+    height: 80px;
+    background-color: ghostwhite;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul{
+    text-align: left;
+}
+.menu ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.menu ul button{
+    margin-right: 15px;
+    padding: 12px 12px 12px 12px;
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.menu li:hover{
+    background-color: cornflowerblue;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin: 0px;
+}
+
+/*============== SLIDER MAIN IMAGE ============*/
+.slider{
+    width: 100%;
+    height: 600px;
+    background-color: green;
+}
+.slider img{
+    width: 100%;
+    height: 520px;
+}
+
+
+/*============== NEWS LINE ===============*/
+.news-col{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.news {
+    width: 90%;
+    height: 30px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: ghostwhite;
+}
+
+/*============= INTRODUCTION ===========*/
+.intro{
+    width: 100%;
+    height: 600px;
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro td img{
+    width: 50px;
+    height: 50px;
+}
+.text{
+    width: 70%;
+    height: 400px;
+    background-color: ghostwhite;
+    color: gray;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.blank{
+    width: 50px;
+    border-bottom: 1px solid green;
+    background-color: ghostwhite;
+}
+
+/*================ BLUE BAR ===============*/
+.blue-bar{
+    width: 100%;
+    height: 300px;
+    background-color: cornflowerblue;
+    display: flex;
+}
+.pics{
+    width: 25%;
+    height: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pics img{
+    width: 70px;
+    height: 70px;
+}
+.pics h1{
+    font-size: 62px;
+}
+
+/*================ WHAT WE ARE DOING? ============*/
+.what-col{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: ghostwhite;
+}
+.what-col td img{
+    width: 50px;
+    height: 50px;
+}
+.box-col{
+    width: 80%;
+    height: 250px;
+    background-color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    width: 28%;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin: 15px 30px 15px 30px;
+    box-shadow: 3px 3px 10px gray;
+    color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box img{
+    width: 100px;
+    height: 100px;
+}
+
+/*============= MISSION AND EVENTS ============*/
+.M-E{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: red;
+    overflow: hidden;
+}
+.mission-col{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: cornflowerblue;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+.mission-col td{
+    width: 70px;
+    border-top: 3px solid green;
+}
+.mission-box{
+    width: 80%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.child{
+    width: 45%;
+    height: 100%;
+    background-color: ghostwhite;
+    display: flex;
+    align-items: center;
+}
+.child img{
+    width: 35px;
+    height: 35px;
+    margin-right: 40px;
+}
+
+.events-col{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    color: cornflowerblue;
+    padding-top: 50px;
+}
+.events-col td{
+    width: 70px;
+    border-top: 3px solid green;
+}
+.wording{
+    width: 70%;
+    height: 200px;
+    background-color: white;
+    overflow: scroll;
+    color: gray;
+}
+
+/*=========== IMAGE GALLERY =================*/
+.img-gallery{
+    width: 100%;
+    height: 500px;
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img-gallery td img{
+        width: 50px;
+        height: 50px;
+}
+.gallery{
+    width: 85%;
+    height: 200px;
+    background-color: ghostwhite;
+    display: flex;
+}
+.gallery img{
+    width: 20%;
+    height: 100%;
+    border: 2px solid white;
+}
+.gallery img:hover{
+    opacity: 40%;
+}
+
+/*============ FOOTER =============*/
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: #061A27;
+    display: flex;
+    overflow: hidden;
+}
+.address{
+    width: 40%;
+    height: 100%;
+    background-color: #061A27;
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.contact, .useful {
+    width: 30%;
+    height: 100%;
+    background-color: #061A27;
+    color: white;
+} 
+.address img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.useful{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+.green{
+    width: 50px;
+    border-top: 1px solid green;
+}
+.gray{
+    width: 300px;
+    border-top: 1px solid gray;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact img{
+    width: 100px;
+    height: 29px;
+    margin-left: 40px;
+}
+.contact h3{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+/*=============== FOOTER LINE ================*/
+.footer-line{
+    width: 100%;
+    background-color: rgb(49, 127, 190);
+    color: white;
+}
+.footer-line p{
+    padding: 10px 0px 10px 130px;
+}
+
+
+
+/*============== MEDIA QUERY =============*/
+@media only screen and (max-width: 600px) {
+  .header{
+      flex-direction: column;
+      height: auto;     
+  }
+  .h-one{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .h-two{
+      width: 100%;
+      text-align: center;
+  }
+  .h-three{
+      width: 100%;
+  }
+ .nav{
+     width: 100%;
+     height: auto;
+ }   
+ .menu{
+     width: 100%;
+     height: auto;
+ }
+.slider{
+    width: 100%;
+    height: 350px;
+}
+.slider img{
+    width: 100%;
+    height: 221px;
+}
+.blue-bar{
+    flex-direction: column;
+    height: auto;
+}
+.pics{
+    width: 100%;
+    margin-top: 20px;
+}
+.intro{
+    height: auto;
+}
+.what-col{
+    width: 100%;
+    height: auto;
+}
+.box-col{
+    width: 80%;
+    flex-direction: column;
+    height: auto;
+}
+.box{
+    width: 100%;
+}
+.M-E{
+    height: auto;
+    flex-direction: column;
+}
+.mission-col{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;   
+}
+.box{
+    width: 40%;
+    height: auto;
+}
+.events-col{
+    width: 100%;
+    height: auto;
+}
+.wording{
+    width: 90%;
+    margin-left: 20px;
+}
+.news-col{
+    width: 100%;
+    height: auto;
+}
+.news{
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+.img-gallery{
+    height: auto;
+}
+.gallery{
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+}
+.gallery img{
+    width: 100%;
+
+}
+}
